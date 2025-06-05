@@ -1,15 +1,10 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "face_api.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }
     }
   ],
-  "routes": [
-    {
-      "src": "/recognize",
-      "dest": "/face_api.py"
-    }
-  ]
+  "pythonVersion": "3.6.7"
 }
