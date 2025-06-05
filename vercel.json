@@ -6,5 +6,5 @@
       "config": { "maxLambdaSize": "15mb" }
     }
   ],
-  "pythonVersion": "3.6.7"
+  "pythonVersion": "3.8"
 }
